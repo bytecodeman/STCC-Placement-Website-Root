@@ -1,0 +1,26 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+
+<!--METADATA TYPE="typelib" FILE="C:\Program Files\Common Files\System\Ado\msado15.dll" -->
+
+Sub Application_OnStart
+  Application("UserDirectoryConnectionString") = _
+         "Provider=SQLOLEDB.1;" & "Persist Security Info=False;" & "Data Source=(local);" & _
+	     "Initial Catalog=UserDirectory;" & "Integrated Security=SSPI" 
+
+  Application("ConnectionString") = _
+         "Provider=SQLOLEDB.1;" & "Persist Security Info=False;" & "Data Source=(local);" & _
+	     "Initial Catalog=PlacementTesting;" & "Integrated Security=SSPI" 
+
+  Application("ItemsPerPage") = 100
+End Sub
+
+Sub Application_OnEnd
+End Sub
+
+Sub Session_OnStart
+End Sub
+
+Sub Session_OnEnd
+End Sub
+
+</SCRIPT>

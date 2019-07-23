@@ -1,0 +1,23 @@
+﻿#toTop {
+    background: url(../img/totop.png) no-repeat top left;
+    border: medium none;
+    top: 50%;
+    margin-top: -52px;
+    cursor: pointer;
+    display: none;
+    width: 26px;
+    height: 103px;
+    position: fixed;
+    right: 0;
+    text-indent: -9999px;
+    z-index: 999;
+}
+#toTop:hover {
+    background: url(../img/totop-hover.png) no-repeat top left;
+    border: medium none;
+    text-decoration: none;
+}
+body:after{
+    display:none;
+    content: url(../img/totop.png) url(images/totop-hover.png);
+}

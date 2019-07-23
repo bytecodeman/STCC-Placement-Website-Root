@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<section name="SQL Server Access Info">
+		<setting name="Initial Catalog" value="PlacementTesting" />
+		<setting name="Data Source" value="placement.stcc.edu" />
+		<setting name="SQLDBUser" value="19111400161A" />
+		<setting name="SQLDBPassword" value="07061312001B1B" />
+		<setting name="Encrypt SQL Traffic" value="True" />
+		<setting name="Trust Server Certificate" value="True" />
+	</section>
+	<section name="Accuplacer Access Info">
+		<setting name="AccuPlacerWaitTime" value="30" />
+		<setting name="ReadingExit Profile" value="* STCCREADEXIT_NG" />
+		<setting name="Reading Profile" value="* STCCREAD_NG" />
+		<setting name="Math Profile" value="* STCCMATH_NG" />
+		<setting name="MathReading Profile" value="* STCCMATHREAD_NG" />
+		<setting name="MathReadingEnglish Profile" value="* STCCMATHREADENG_NG" />
+		<setting name="English Profile" value="* STCCENG_NG" />
+		<setting name="MathEnglish Profile" value="* STCCMATHENG_NG" />
+		<setting name="ReadingEnglish Profile" value="* STCCREADENG_NG" />
+  </section>
+	<!-- Program Execution Status (DISABLE, ENABLE, PRINT) -->
+	<section name="Program Execution Status">
+		<setting name="Network Default" value="DISABLE" />
+		<setting name="Network 192.168.62.0/255.255.255.0" description="TEMPORARY"      value="PRINT" />
+		<setting name="Network 192.168.10.0/255.255.255.0" description="VPN"      value="PRINT" />
+		<setting name="Network 10.17.45.0/255.255.255.0"   description="00425B17" value="PRINT" />
+		<setting name="Network 134.241.97.0/255.255.255.0" description="Carlos"   value="PRINT" />
+		<setting name="Network 10.27.100.0/255.255.255.0"  description="0100B27A" value="PRINT" />
+		<setting name="Network 10.27.101.0/255.255.255.0"  description="0100B27B" value="PRINT" />
+		<setting name="Network 10.27.102.0/255.255.255.0"  description="0100B27C" value="PRINT" />
+		<setting name="Network 10.27.129.0/255.255.255.0"  description="00129B27" value="PRINT" />
+		<setting name="Network 192.168.254.0/255.255.255.0"  description="XXXXXX" value="PRINT" />
+		<setting name="Network 192.168.230.0/255.255.255.0"  description="XXXXXX" value="PRINT" />
+		<setting name="Network 192.168.9.0/255.255.255.0"  description="XXXXXX" value="PRINT" />
+		<setting name="Network 192.168.72.0/255.255.255.0" description="Connie" value="PRINT" />		
+	</section>
+	<!-- Testing Options Status (true, false, disabled) -->
+	<section name="Testing Options">
+		<setting name="STCC Placement Exam" value="true" />
+		<setting name="Reading Exit Exam" value="false" />
+		<setting name="Math Test CheckBox" value="true" />
+		<setting name="English Test CheckBox" value="true" />
+		<setting name="Reading Test CheckBox" value="true" />
+		<setting name="Typing Test CheckBox" value="true" />
+	</section>
+	<section name="Email Configuration">
+	    <setting name="Email Account Name" value="placementtesting@stcc.edu" />
+	    <setting name="Email Account Password" value="3C170D1F1C4C241B000D17" />
+	    <setting name="Send Emails From Address" value="&quot;Placement Testing Administrator&quot; placementtesting@stcc.edu" />
+		<setting name="Send Placement Email Enabled" value="false" />
+		<setting name="Send Error Email Enabled" value="false" />
+	    <setting name="Error Email TO Recipients" value="&quot;Tony Silvestri&quot; &lt;silvestri@stcc.edu&gt;" />
+	    <setting name="Error Email CC Recipients" value="" />
+	    <setting name="Error Email BC Recipients" value="" />
+	</section>
+	<section name="Keyboarding Data">
+		<setting name="Keyboarding Test Attempt Count" value="2" />
+		<setting name="Keyboarding Test Timeout" value="60" />
+	    <setting name="Keyboarding Folder" value="https://placement.stcc.edu/keyboardingData/" />
+		<setting name="Keyboarding Intro" value="typingintro.rtf" />
+		<setting name="Keyboarding Topic" value="typing1.txt"  description="1" />
+		<setting name="Keyboarding Topic" value="typing2.txt"  description="2" />
+		<setting name="Keyboarding Topic" value="typing3.txt"  description="3" />
+		<setting name="Keyboarding Topic" value="typing4.txt"  description="4" />
+		<setting name="Keyboarding Topic" value="typing5.txt"  description="5" />
+		<setting name="Keyboarding Topic" value="typing6.txt"  description="6" />
+		<setting name="Keyboarding Topic" value="typing7.txt"  description="7" />
+		<setting name="Keyboarding Topic" value="typing8.txt"  description="8" />
+		<setting name="Keyboarding Topic" value="typing9.txt"  description="9" />
+		<setting name="Keyboarding Topic" value="typing10.txt" description="10" />
+		<setting name="Keyboarding Topic" value="typing11.txt" description="11" />
+		<setting name="Keyboarding Topic" value="typing12.txt" description="12" />
+		<setting name="Keyboarding Topic" value="typing13.txt" description="13" />
+		<setting name="Keyboarding Topic" value="typing14.txt" description="14" />
+		<setting name="Keyboarding Topic" value="typing15.txt" description="15" />
+		<setting name="Keyboarding Topic" value="typing16.txt" description="16" />
+		<setting name="Keyboarding Topic" value="typing17.txt" description="17" />
+		<setting name="Keyboarding Topic" value="typing18.txt" description="18" />
+		<setting name="Keyboarding Topic" value="typing19.txt" description="19" />
+		<setting name="Keyboarding Topic" value="typing20.txt" description="20" />
+	</section>
+</configuration>

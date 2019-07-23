@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<section name="SQL Server Access Info">
+		<setting name="Initial Catalog" value="PlacementTesting" />
+		<setting name="Data Source" value="(local)" />
+		<setting name="SQLDBUser" value="19111400161A" />
+		<setting name="SQLDBPassword" value="07061312001B1B" />
+    </section>
+	<section name="Upload Configuration Parameters">
+		<setting name="Remote Computer Address" value="Colleagueapp.stcc.edu" />
+		<setting name="Remote Account Name" value="070602102F0C1C031C0D1C120C" />
+		<setting name="Remote Account Password" value="041E0010165C20203122" />
+		<setting name="Remote Account Directory" value="/data/Placement/STCC/Download/" />
+		<setting name="Output Logfile" value="BackgroundUploadLog.txt" />
+		<setting name="Debug Output" value="False" />
+		<setting name="Update Database" value="True" />
+		<setting name="Delete Files" value="True" />
+		<setting name="Remote Background Filename" value="BackgroundResponses.txt" />
+		<setting name="Local Background Filename" value="BackgroundResponses.txt" />
+		<setting name="Remote Temp Filename" value="BackgroundResponses.$$$" />
+		<setting name="Remote Result Filename" value="BackgroundAcknowledgment.txt" />
+		<setting name="Local Result Filename" value="BackgroundAcknowledgment.txt" />
+	</section>
+	<section name="Email Configuration">
+	    <setting name="Email Account Name" value="placementtesting@stcc.edu" />
+	    <setting name="Email Account Password" value="3C170D1F1C4C241B000D17" />
+	    <setting name="Send Emails From Address" value="&quot;Placement Testing Administrator&quot; placementtesting@stcc.edu" />
+		<setting name="Send Warning Email" value="False" />
+		<setting name="Warning Email TO Recipients" value="ceporter@stcc.edu;tagalanis@stcc.edu;czech@stcc.edu" /> 
+		<setting name="Warning Email CC Recipients" value="" /> 
+		<setting name="Warning Email BC Recipients" value="" /> 
+		<setting name="Send Error Email Enabled" value="False" />
+	    <setting name="Error Email TO Recipients" value="" />
+	    <setting name="Error Email CC Recipients" value="" />
+	    <setting name="Error Email BC Recipients" value="" />
+	</section>
+</configuration>
